@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MapComponent from "./MapComponent";
 import { locationsData, cityData } from "../data/locations";
-import SideBar from "./SideBar";
+import Sidebar from "./Sidebar";
 import { City, CityData, ViewState } from "./type";
 
 // Replace with your Mapbox token
@@ -39,7 +39,7 @@ const Home = (props: { token: any }) => {
         locations={locationsData}
         mapboxToken={props.token}
       />
-      <SideBar
+      <Sidebar
         cityData={allCityData}
         selectedCity={selectedCity}
         setSelectedCity={setSelectedCity}

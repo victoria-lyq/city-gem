@@ -8,7 +8,7 @@ import Map, {
   GeolocateControl,
 } from "react-map-gl";
 import { Category, Location } from "./type";
-import Pin from "./pin";
+import Pin from "./Pin";
 import "../styles/MapComponents.css";
 
 interface MapComponentProps {

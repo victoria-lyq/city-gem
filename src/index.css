@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add root css with full height and width */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}

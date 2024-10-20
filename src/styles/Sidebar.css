@@ -1,0 +1,32 @@
+.sidebar-show {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  height: 100vh;
+  width: 250px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: width 0.3s ease-in-out;
+  overflow-x: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sidebar-collapsed {
+  width: 40px; /* Adjust this value as needed for the collapsed state */
+}
+
+.form-label {
+  font-size: 12px;
+}
+
+.radio-group-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: column;
+}

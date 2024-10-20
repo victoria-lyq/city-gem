@@ -30,3 +30,25 @@
   width: 100%;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .sidebar-collapsed {
+    height: 10%; /* Initial height for the collapsed state */
+    width: 10%; /* Full width for mobile */
+    align-items: center;
+  }
+
+  .radio-group-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .form-label {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .radio-item {
+    margin: 0 5px;
+  }
+}
